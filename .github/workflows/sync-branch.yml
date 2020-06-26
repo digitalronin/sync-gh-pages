@@ -1,6 +1,8 @@
 name: Keep gh-pages in sync wrt. main
 
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
   sync:
