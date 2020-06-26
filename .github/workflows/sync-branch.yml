@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - run: git checkout gh-pages
+      - run: git checkout --track origin/gh-pages
       - run: git rebase main
       - run: git push origin gh-pages
