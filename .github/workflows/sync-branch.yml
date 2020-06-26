@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: git checkout -b gh-pages
-      - run: git push origin gh-pages
+      - run: git push origin gh-pages --force
