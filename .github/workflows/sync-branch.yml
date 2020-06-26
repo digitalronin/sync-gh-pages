@@ -1,8 +1,6 @@
 name: Keep gh-pages in sync wrt. main
 
-on:
-  pull_request:
-    types: [closed]
+on: [push]
 
 jobs:
   sync:
